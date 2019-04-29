@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.5)  29 APR 2019 17:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.5)  29 APR 2019 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -469,13 +469,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
 [2] (./zalozenia.aux) ) 
 Here is how much of TeX's memory you used:
- 1457 strings out of 494774
- 16763 string characters out of 6177270
+ 1446 strings out of 494774
+ 16615 string characters out of 6177270
  71501 words of memory out of 5000000
- 4801 multiletter control sequences out of 15000+600000
- 37335 words of font info for 35 fonts, out of 8000000 for 9000
+ 4789 multiletter control sequences out of 15000+600000
+ 41598 words of font info for 36 fonts, out of 8000000 for 9000
  101 hyphenation exceptions out of 8191
- 23i,6n,23p,231b,208s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23i,6n,23p,257b,208s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/sha
 re/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
 lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/
@@ -483,11 +483,12 @@ fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on zalozenia.pdf (2 pages, 139794 bytes).
+ublic/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmsy10.pfb>
+Output written on zalozenia.pdf (2 pages, 155937 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

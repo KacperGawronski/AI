@@ -17,19 +17,19 @@
 \maketitle
 \section{Opis problemu.}
 Dana jest macierz $M_{m,n}$. Wśród m-1 wierszy około 10\% przyjmuje wartość 1, pozostałe wartość 0.\\
-Wiersz m przyjmuje wartości początkowe równe 0, oraz jest jednocześnie "kuchnią" - miejscem, do którego "kelner" przynosi zamówienia oraz z którego odbiera zrealizowane zamówienia.\\
-Pozycja "kelnera" jest opisana jako para liczb (a,b) z zakresów $0\le a \le n$ oraz $0\le b \le m$ oznaczająca jego aktualną pozycję w macierzy.\\
-Ponadto z "kelnerem" powiązana jest lista zawierająca "zamówienia", które są do zrealizowania w kuchni.\\
-"Kuchnia" przyjmuje zlecenia od "kelnera", oraz je realizuje - co jeden ruch "kelnera" zmniejszany jest czas pozostały do ralizacji każdego "zamówienia".\\
-Gdy czas "zamówienia" w kuchni osiągnie wartość mniejszą bądź równą zero, "zamówienie" przechodzi do listy odpowiadającej zrealizowanych przez kuchnię "zamówień".\\
-Kelner wkraczając na obszar kuchni automatycznie przejmuje wszystkie zrealizowane "zamówienia" dodając je do przechowywanej listy oraz może je dostarczyć do "klienta".\\
-Definicje czasu potrzebnego do realizacji konkretnego zamówienia są zdefiniowane w słowniku zamówień.\\
-Wartość 1 w macierzy definiuje jedynie pozycję klienta, nie "zamówienie". "Zamówienie" jest ustalane losowo po wejściu "kelnera" na pozycję klienta oraz przeczekanie jednej tury.\\
-Zamówienia są przechowywane w macierzy rzadkiej jako lista pozycji wraz z zamówieniem.\\
-Środowisko powinno przeprowadzać podstawową walidację, tj. czy "kelner" nie wychodzi poza dopuszczalny zakres ruchów, oraz czy dostarczył prawidłową realizację zamówienia do klienta.\\
+Wiersz m przyjmuje wartości początkowe równe 0, oraz jest jednocześnie \textit{kuchnią} - miejscem, do którego \textit{kelner} przynosi zamówienia oraz z którego odbiera zrealizowane zamówienia.\\
+Pozycja \textit{kelnera} jest opisana jako para liczb (a,b) z zakresów $0\le a \le n$ oraz $0\le b \le m$ oznaczająca jego aktualną pozycję w macierzy.\\
+Ponadto z \textit{kelnerem} powiązana jest lista zawierająca \textit{zamówienia}, które są do zrealizowania w kuchni.\\
+\textit{Kuchnia} przyjmuje zlecenia od \textit{kelnera}, oraz je realizuje - co jeden ruch \textit{kelnera} zmniejszany jest czas pozostały do ralizacji każdego \textit{zamówienia}.\\
+Gdy czas \textit{zamówienia} w kuchni osiągnie wartość mniejszą bądź równą zero, \textit{zamówienie} przechodzi do listy odpowiadającej zrealizowanych przez kuchnię \textit{zamówień}.\\
+Kelner wkraczając na obszar kuchni automatycznie przejmuje wszystkie zrealizowane \textit{zamówienia} dodając je do przechowywanej listy oraz może je dostarczyć do \textit{klienta}.\\
+Definicje czasu potrzebnego do realizacji konkretnego \textit{zamówienia} są zdefiniowane w słowniku zamówień.\\
+Wartość 1 w macierzy definiuje jedynie pozycję klienta, nie \textit{zamówienie}. \textit{Zamówienie} jest ustalane losowo po wejściu \textit{kelnera} na pozycję klienta oraz przeczekanie jednej tury.\\
+Zamówienia są przechowywane w macierzy rzadkiej jako lista pozycji wraz z \textit{zamówieniem}.\\
+Środowisko powinno przeprowadzać podstawową walidację, tj. czy \textit{kelner} nie wychodzi poza dopuszczalny zakres ruchów, oraz czy dostarczył prawidłową realizację zamówienia do klienta.\\
 \paragraph{Cel}
-Celem jest opracowanie rozwiązania zebrania zamówień od wszystkich klientów oraz dostarczenia im realizacji zamówień, w możliwie krótkim czasie.
+Celem jest opracowanie rozwiązania zebrania zamówień od wszystkich klientów oraz dostarczenia im realizacji \textit{zamówień}, w możliwie krótkim czasie.
 \paragraph{Komunikacja}
-Środowisko powinno umożliwiać komunikację przetwarzając ciąg liter ze zbioru \{N,S,E,W\} odpowiadającym kierunkom oraz litery H odpowiadającej przeczekaniu tury.\\
+Środowisko powinno umożliwiać komunikację przetwarzając ciąg liter ze zbioru \{N,S,E,W\} odpowiadającym kierunkom oraz litery H odpowiadającej przeczekaniu tury bądź akcji (oddania/pobrania \textit{zamówień}).\\
 
 \end{document}
